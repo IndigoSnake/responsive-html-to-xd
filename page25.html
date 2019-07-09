@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Aiccounting</title>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/app.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/component-chosen.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery.nicescroll.min.js"></script>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+	<script>
+        $(document).ready(function(){
+            $(".hamburger").click(function(){
+                $(this).toggleClass("vector");
+                $(".page-section .col-sm-3").toggleClass("main");
+                $(".nav_menu_area ").toggleClass('open_nav');
+            });
+        });
+	</script>
+
+</head>
+<body class="dashboard-back-color">
+<img class="right-bottom-img" src="assets/img/Produktionsdaten/Testseite/illustration_netz_rechts_unten.svg">
+<header class="container-fluid">
+	<nav class="navbar navbar-expand-sm fixed-top bg-white container-fluid log-header">
+		<div class="spacing-header col-lg-1"></div>
+		<div class="col-10 col-sm-10 col-md-4 col-lg-3">
+			<img src="assets/img/aiccounting_logo_weiss.png" alt="Logo">
+		</div>
+		<div class="spacing-header col-md-4 col-lg-6"></div>
+		<div class="col-2 col-sm-2 col-md-4 col-lg-2">
+			<img src="assets/img/Produktionsdaten/Testseite/avatar.svg">
+			<span class="log-user-text">M.Muster</span>
+		</div>
+	</nav>
+</header>
+
+<div class="center-wrapper">
+	<div class="page-section">
+		<div class="container">
+			<div class="dasbord-area">
+				<div class="row">
+					<div class="nav_menu_area col-lg-2 col-md-4 pl-0 pr-0">
+						<div class="hamburger">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+						<div class="main-menu">
+							<a href="#" class="advance_ac">Advance Account</a>
+							<ul class="dashboard-menu-item">
+								<li class="active"><span><img class="dashboard-img" src="assets/img/download_invert.png"><img class="hover" src="assets/img/download_invert.png"></span><a class="dashboard-text" href="page6.html">1.HOCHLADEN</a></li>
+								<li><span><img class="dashboard-img" src="assets/img/search.png"><img class="hover" src="assets/img/search_invert.png"></span><a class="dashboard-text" href="page10-11-12.html">2. ANALYSE</a></li>
+								<li><span><img class="dashboard-img" src="assets/img/pencil.svg"><img class="hover" src="assets/img/pencil_invert.png"></span><a class="dashboard-text" href="page17.html">3. EDITIEREN</a></li>
+								<li><span><img class="dashboard-img" src="assets/img/taining.png"><img class="hover" src="assets/img/taining_invert.png"></span><a class="dashboard-text" href="page18.html">4. TRAINING</a></li>
+								<li><span><img class="dashboard-img" src="assets/img/taining-re.png"><img class="hover" src="assets/img/taining-re_invert.png"></span><a class="dashboard-text" href="page21.html">5. TRAININGSRESULTAT</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-8 pl-0 pr-0">
+						<div class="middle-content pl-2 pl-sm-2 pl-md-3 pl-lg-5">
+							<div class="row mx-2 mx-sm-2 mx-md-3 mx-lg-4">
+								<div class="middle-content-top-text">
+									<h3>Manuelle Bearbeitung</h3>
+									<span class="line-in"></span>
+									<h1 class="mt-3">Uploadcenter</h1>
+									<p class="pr-3">Hier steht eine Subline, die diesen Schritt erklärt. Zwei flinke Boxer jagen die quirlige Eva und ihren Mops durch Sylt. Franz jagt im komplett verwahrlosten Taxi quer durch Bayern.</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="container-fluid mx-lg-4 mt-lg-4">
+									<div class="row mx-0 px-0 justify-content-start">
+										<div class="col-sm-12 col-md-12 col-lg-5 ">
+											<div class="row mx-0 justify-content-center">
+												Belege eines neuen Kreditors hochladen
+											</div>
+											<div class="row mx-0 mt-lg-5 pt-2"></div>
+											<div class="row mx-0 justify-content-center">
+												<div class="upload-content-white-box-double">
+													<div class="upload-plus">+</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-sm-12 col-md-12 col-lg-5 mt-4 mt-sm-4 mt-md-4 mt-lg-0">
+											<div class="row mx-0 justify-content-center">
+												Belege eines bekannten Kreditor hochladen
+											</div>
+											<div class="row mx-0 mt-2 justify-content-center">
+												<div class="dropdown">
+													<button class="custom-dropdown" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+														Kreditor auswählen
+														<i class="fas fa-chevron-down dropdown-indent"></i>
+													</button>
+													<div class="dropdown-menu" aria-labelledby="dLabel">
+														<ul>
+															<li><a href="https://www.jquery-az.com/bootstrap-tips-tutorials/">Bootstrap</a></li>
+															<li><a href="https://www.jquery-az.com/jquery-tips/">jQuery</a></li>
+															<li><a href="https://www.jquery-az.com/php-tutorials/">PHP</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="row mx-0 mt-3 justify-content-center">
+												<div class="upload-content-white-box-double">
+													<div class="upload-plus">+</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="row upload-under-text mx-0 px-3 mt-4 mt-sm-4 mt-md-3 mt-lg-2">
+										Hier steht eine kurze Erklärung, welche Dateiformate- und Größen unterstützt werden.
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="col-lg-4 col-md-12 pl-0 pr-0">
+						<div class="right-side">
+							<div class="right-side-upload">
+								<img class="upload-clock-img center" src="assets/img/Element 4.png">
+							</div>
+							<div class="right-side-text center">
+								Wir warten auf Ihren Datenupload.
+							</div>
+						</div>
+					</div>
+				</div>
+				<a href="page26.html"><button class="dashboard-next-button-table"><img class="" src="assets/img/next.png"/></button></a>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+<script>
+    $(document).ready(function() {
+
+        var nice = $("html").niceScroll();  // The document page (body)
+
+        $("#div1").html($("#div1").html()+' '+nice.version);
+
+        $("#boxscroll").niceScroll({cursorborder:"", cursorborderradius: "10px", background: "#EEF3F7", cursorwidth: "15px", cursorcolor:"#B4CEDC",boxzoom:false,autohidemode: false}); // First scrollable DIV
+        $(".select-options .select-values ul").niceScroll({cursorborder:"", cursorborderradius: "10px", background: "#EEF3F7", cursorwidth: "8px", cursorcolor:"#B4CEDC",boxzoom:false,autohidemode: false}); // First scrollable DIV
+
+        $aiccValue = $(".select-options span.values");
+        $aiccValueList = $(".select-options .select-values ul li");
+
+        $aiccValue.click(function() {
+            $(this).parent('.select-options').toggleClass('open');
+        });
+        $aiccValueList.click(function() {
+            $listVal = $(this).text();
+            console.log($listVal);
+            $aiccValue.text($listVal);
+            $aiccValue.parent('.select-options').removeClass('open');
+        });
+        $NavmenuContent = $(".dashboard-menu-item");
+        console.log($NavmenuContent);
+
+
+
+    });
+</script>
+</html>

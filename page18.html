@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Aiccounting</title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/app.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/component-chosen.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.nicescroll.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $(".hamburger").click(function(){
+                $(this).toggleClass("vector");
+                $(".page-section .col-sm-3").toggleClass("main");
+                $(".nav_menu_area ").toggleClass('open_nav');
+            });
+            $(".middle-content-top-text").css( "background-color", "#FFFFFF");
+        });
+    </script>
+
+</head>
+<body class="dashboard-back-color">
+<img class="right-bottom-img" src="assets/img/Produktionsdaten/Testseite/illustration_netz_rechts_unten.svg">
+<header class="container-fluid">
+    <nav class="navbar navbar-expand-sm fixed-top bg-white container-fluid log-header">
+        <div class="spacing-header col-lg-1"></div>
+        <div class="col-10 col-sm-10 col-md-4 col-lg-3">
+            <img src="assets/img/aiccounting_logo_weiss.png" alt="Logo">
+        </div>
+        <div class="spacing-header col-md-4 col-lg-6"></div>
+        <div class="col-2 col-sm-2 col-md-4 col-lg-2">
+            <img src="assets/img/Produktionsdaten/Testseite/avatar.svg">
+            <span class="log-user-text">M.Muster</span>
+        </div>
+    </nav>
+</header>
+
+<div class="center-wrapper">
+    <div class="page-section">
+        <div class="container">
+            <div class="dasbord-area">
+                <div class="row">
+                    <div class="nav_menu_area col-lg-2 col-md-4 pl-0 pr-0">
+                        <div class="hamburger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="main-menu">
+                            <a href="#" class="advance_ac">Advance Account</a>
+                            <ul class="dashboard-menu-item">
+                                <li><span><img class="dashboard-img" src="assets/img/download.png"><img class="hover" src="assets/img/download_invert.png"></span><a class="dashboard-text" href="page6.html">1.HOCHLADEN</a></li>
+                                <li><span><img class="dashboard-img" src="assets/img/search.png"><img class="hover" src="assets/img/search_invert.png"></span><a class="dashboard-text" href="page10-11-12.html">2. ANALYSE</a></li>
+                                <li><span><img class="dashboard-img" src="assets/img/pencil.svg"><img class="hover" src="assets/img/pencil_invert.png"></span><a class="dashboard-text" href="page17.html">3. EDITIEREN</a></li>
+                                <li class="active"><span><img class="dashboard-img" src="assets/img/taining.png"><img class="hover" src="assets/img/taining_invert.png"></span><a class="dashboard-text" href="page18.html">4. TRAINING</a></li>
+                                <li><span><img class="dashboard-img" src="assets/img/taining-re.png"><img class="hover" src="assets/img/taining-re_invert.png"></span><a class="dashboard-text" href="page21.html">5. TRAININGSRESULTAT</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-lg-10 col-md-8 px-0">
+                        <div class="middle-content-top-text">
+                            <div class="container-fluid">
+                                <div class="row justify-content-center empty-content-bottom">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 mt-5 pt-5">
+                                        <img class="center" src="assets/img/Element 11.png">
+                                        <h3 class="center-mark-title mt-5">KI-Bearbeitung</h3>
+                                        <span class="line-in mt-4 center"></span>
+                                        <div class="thin-title mt-3 center">Unsere KI arbeitet gerade.</div>
+                                        <div class="thin-subtitle mt-2 center">Wir werden Sie per E-Mail informieren, wenn Ihre Daten bereit stehen. Eine kleine Animation wird abgespielt. Franz jagt im komplett verwahrlosten Taxi quer durch Bayern. Zwölf Boxkämpfer jagen.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+<script>
+    $(document).ready(function() {
+
+        var nice = $("html").niceScroll();  // The document page (body)
+
+        $("#div1").html($("#div1").html()+' '+nice.version);
+
+        $("#boxscroll").niceScroll({cursorborder:"", cursorborderradius: "10px", background: "#EEF3F7", cursorwidth: "15px", cursorcolor:"#B4CEDC",boxzoom:false,autohidemode: false}); // First scrollable DIV
+        $(".select-options .select-values ul").niceScroll({cursorborder:"", cursorborderradius: "10px", background: "#EEF3F7", cursorwidth: "8px", cursorcolor:"#B4CEDC",boxzoom:false,autohidemode: false}); // First scrollable DIV
+
+        $aiccValue = $(".select-options span.values");
+        $aiccValueList = $(".select-options .select-values ul li");
+
+        $aiccValue.click(function() {
+            $(this).parent('.select-options').toggleClass('open');
+        });
+        $aiccValueList.click(function() {
+            $listVal = $(this).text();
+            console.log($listVal);
+            $aiccValue.text($listVal);
+            $aiccValue.parent('.select-options').removeClass('open');
+        });
+        $NavmenuContent = $(".dashboard-menu-item");
+        console.log($NavmenuContent);
+
+
+
+    });
+</script>
+</html>

@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Aiccounting</title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/app.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/component-chosen.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.nicescroll.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $(".hamburger").click(function(){
+                $(this).toggleClass("vector");
+                $(".page-section .col-sm-3").toggleClass("main");
+                $(".nav_menu_area ").toggleClass('open_nav');
+            });
+
+        });
+    </script>
+
+</head>
+<body class="dashboard-back-color">
+<img class="right-bottom-img" src="assets/img/Produktionsdaten/Testseite/illustration_netz_rechts_unten.svg">
+<header class="container-fluid">
+    <nav class="navbar navbar-expand-sm fixed-top bg-white container-fluid log-header">
+        <div class="spacing-header col-lg-1"></div>
+        <div class="col-10 col-sm-10 col-md-4 col-lg-3">
+            <img src="assets/img/aiccounting_logo_weiss.png" alt="Logo">
+        </div>
+        <div class="spacing-header col-md-4 col-lg-6"></div>
+        <div class="col-2 col-sm-2 col-md-4 col-lg-2">
+            <img src="assets/img/Produktionsdaten/Testseite/avatar.svg">
+            <span class="log-user-text">M.Muster</span>
+        </div>
+    </nav>
+</header>
+
+<div class="center-wrapper">
+    <div class="page-section">
+        <div class="container">
+            <div class="dasbord-area">
+                <div class="row">
+                    <div class="nav_menu_area col-lg-2 col-md-4 pl-0 pr-0">
+                        <div class="hamburger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="main-menu">
+                            <a href="#" class="advance_ac">Advance Account</a>
+                            <ul class="dashboard-menu-item">
+                                <li><span><img class="dashboard-img" src="assets/img/download.png"><img class="hover" src="assets/img/download_invert.png"></span><a class="dashboard-text" href="page6.html">1.HOCHLADEN</a></li>
+                                <li><span><img class="dashboard-img" src="assets/img/search.png"><img class="hover" src="assets/img/search_invert.png"></span><a class="dashboard-text" href="page10-11-12.html">2. ANALYSE</a></li>
+                                <li><span><img class="dashboard-img" src="assets/img/pencil.svg"><img class="hover" src="assets/img/pencil_invert.png"></span><a class="dashboard-text" href="page17.html">3. EDITIEREN</a></li>
+                                <li><span><img class="dashboard-img" src="assets/img/taining.png"><img class="hover" src="assets/img/taining_invert.png"></span><a class="dashboard-text" href="page18.html">4. TRAINING</a></li>
+                                <li class="active"><span><img class="dashboard-img" src="assets/img/taining-re.png"><img class="hover" src="assets/img/taining-re_invert.png"></span><a class="dashboard-text" href="page21.html">5. TRAININGSRESULTAT</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-8 pl-0 pr-0">
+                        <div class="middle-content pl-2 pl-sm-2 pl-md-3 pl-lg-5">
+                            <div class="middle-content-top-text mx-2 mx-sm-2 mx-md-3 mx-lg-4">
+                                <h3>Manuelle Bearbeitung</h3>
+                                <span class="line-in"></span>
+                                <h1 class="mt-3">Kriterien für eine Rechnung</h1>
+                                <p>Lassen Sie sich Ihre extrahierten Daten in unterschiedlichen Ansichten anzeigen (OCR, Extracted, Kriterien) und laden Sie diese im Anschluss gesammelt herunter.</p>
+                                <div class="container-fluid color-comment">
+                                    <div class="row mb-1">
+                                        <div class="col-10 col-sm-10 col-md-3 col-lg-2">
+                                            Legende:
+                                        </div>
+                                        <div class="col-10 col-sm-10 col-md-3 col-lg-2 mt-2 mt-sm-2 mt-md-0 mt-lg-0 mx-5 px-5 mx-sm-5 px-sm-5 mx-md-0 px-md-0 mx-lg-0 px-lg-0">
+                                            <img src="assets/img/Produktionsdaten/Testseite/Element_Punkt_gruen.svg">
+                                            <span>
+                                                korrekt
+                                            </span>
+                                        </div>
+                                        <div class="col-10 col-sm-10 col-md-3 col-lg-2 mt-2 mt-sm-2 mt-md-0 mt-lg-0 mx-5 px-5 mx-sm-5 px-sm-5 mx-md-0 px-md-0 mx-lg-0 px-lg-0">
+                                            <img src="assets/img/Produktionsdaten/Testseite/Element_Punkt_blau.svg">
+                                            <span>
+                                                neutral
+                                            </span>
+                                        </div>
+                                        <div class="col-10 col-sm-10 col-md-3 col-lg-2 mt-2 mt-sm-2 mt-md-0 mt-lg-0 mx-5 px-5 mx-sm-5 px-sm-5 mx-md-0 px-md-0 mx-lg-0 px-lg-0">
+                                            <img src="assets/img/Produktionsdaten/Testseite/Element_Punkt_rot.svg">
+                                            <span>
+                                                falsch
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="middle-content-white-box mx-1 mx-sm-1 mx-md-1 mx-lg-4">
+                                <div id="boxscroll">
+                                    <p>
+                                        <img src="assets/img/Produktionsdaten/Testseite/icon_upload_vollstaendig_gruen.svg">
+                                        <span>Full name including legal form and full address of the contractor</span>
+                                    </p>
+                                    <p>
+                                        <img src="assets/img/Produktionsdaten/Testseite/icon_upload_vollstaendig_gruen.svg">
+                                        <span>performing the service.</span>
+                                    </p>
+                                    <p>
+                                        <img src="assets/img/Produktionsdaten/Testseite/icon_upload_vollstaendig_gruen.svg">
+                                        <span>Full name and full address of the recipient.</span>
+                                    </p>
+                                    <p>
+                                        <img src="assets/img/Produktionsdaten/Testseite/icon_upload_vollstaendig_gruen.svg">
+                                        <span>Alternatively VAT identification number or tax number</span>
+                                    </p>
+                                    <p>
+                                        <img src="assets/img/Produktionsdaten/Testseite/icon_upload_vollstaendig_gruen.svg">
+                                        <span>which has been assigned to the performing contractor by the tax office.</span>
+                                    </p>
+                                    <p>
+                                        <img src="assets/img/Produktionsdaten/Testseite/icon_upload_vollstaendig_gruen.svg">
+                                        <span>Issue date of the invoice. </span>
+                                    </p>
+                                    <p>
+                                        <img src="assets/img/Produktionsdaten/Testseite/icon_upload_vollstaendig_gruen.svg">
+                                        <span>A consecutive invoice number, which is assigned once.</span>
+                                    </p>
+                                    <p>
+                                        <img src="assets/img/Produktionsdaten/Testseite/icon_upload_vollstaendig_gruen.svg">
+                                        <span>Quantity and type of goods supplied with commercial name or</span>
+                                    </p>
+                                    <p>
+                                        <img src="assets/img/Produktionsdaten/Testseite/icon_upload_vollstaendig_gruen.svg">
+                                        <span>type and extent of other service. </span>
+                                    </p>
+                                    <p>
+                                        <img src="assets/img/Produktionsdaten/Testseite/icon_upload_vollstaendig_gruen.svg">
+                                        <span>Time of delivery or other service if it deviates from the invoice date..</span>
+                                    </p>
+                                    <p>
+                                        <img src="assets/img/Produktionsdaten/Testseite/icon_upload_vollstaendig_gruen.svg">
+                                        <span>Distribution of remuneration (net amount) after tax rates and tax</span>
+                                    </p>
+                                    <p>
+                                        <img src="assets/img/Produktionsdaten/Testseite/icon_upload_vollstaendig_gruen.svg">
+                                        <span>exemptions. </span>
+                                    </p>
+                                    <p>
+                                        <img src="assets/img/Produktionsdaten/Testseite/icon_upload_vollstaendig_gruen.svg">
+                                        <span>Applicable tax rate </span>
+                                    </p>
+                                    <p>
+                                        <img src="assets/img/Produktionsdaten/Testseite/icon_upload_vollstaendig_gruen.svg">
+                                        <span>The amount of value added tax payable on the remuneration, or </span>
+                                    </p>
+                                    <p>
+                                        <img src="assets/img/Produktionsdaten/Testseite/icon_upload_vollstaendig_gruen.svg">
+                                        <span>an indication that a tax exemption applies. </span>
+                                    </p>
+                                    <p>
+                                        <img src="assets/img/Produktionsdaten/Testseite/icon_upload_vollstaendig_gruen.svg">
+                                        <span>The indication of the gross amount is not an obligation, </span>
+                                    </p>
+                                    <p>
+                                        <img src="assets/img/Produktionsdaten/Testseite/icon_upload_vollstaendig_gruen.svg">
+                                        <span>but generally usual. Note on discount deduction, if granted. </span>
+                                    </p>
+                                    <p>
+                                        <img src="assets/img/Produktionsdaten/Testseite/icon_upload_vollstaendig_gruen.svg">
+                                        <span>Note on the storage obligation,</span>
+                                    </p>
+                                    <p>
+                                        <img src="assets/img/Produktionsdaten/Testseite/icon_upload_vollstaendig_gruen.svg">
+                                        <span>if you work on a property of private customers provide (among others all construction)</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="mt-3">
+                                <div class="middle-content-bottom ml-1 ml-sm-1 ml-md-2 ml-lg-3">
+                                    <div class="row px-2">
+                                        <div class="col-lg-6 col-xl-3 col-md-6 col-12 mt-2 mt-sm-2 mt-md-0 mt-lg-0">
+                                            <label class=" checkbox">Rechnungskriterien
+                                                <input type="radio" checked="checked" name="radio" onclick="window.location.href='page10-11-12.html'">
+                                                <span class="checkmark-opt"></span>
+                                            </label>
+                                        </div>
+                                        <div class="col-lg-6 col-xl-3 col-md-6 col-12 mt-2 mt-sm-2 mt-md-0 mt-lg-0">
+                                            <label class="checkbox">OCR Ergebnis
+                                                <input type="radio" name="radio" onclick="window.location.href='page14.html'">
+                                                <span class="checkmark-opt"></span>
+                                            </label>
+                                        </div>
+                                        <div class="col-lg-12 col-xl-6 col-md-12 col-12 mt-2 mt-sm-2 mt-md-2 mt-lg-0">
+                                            <label class="checkbox">Generische Buchhaltungsdaten
+                                                <input type="radio" name="radio" onclick="window.location.href='page15.html'">
+                                                <span class="checkmark-opt"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 pl-0 pr-0">
+                        <div class="right-side">
+                            <div class="top-right-side">
+                                <div class="search-logo">
+                                    <h1><img src="assets/img/icon_Lupe.svg"/></span></h1>
+                                </div>
+                            </div>
+                            <iframe src="assets/img/demoform1.pdf"></iframe>
+                            <div class="select-dropdown-area">
+                                <div class="arrow-icone">
+                                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                         viewBox="0 0 477.175 477.175" style="enable-background:new 0 0 477.175 477.175;" xml:space="preserve">
+                                <g>
+                                    <path d="M145.188,238.575l215.5-215.5c5.3-5.3,5.3-13.8,0-19.1s-13.8-5.3-19.1,0l-225.1,225.1c-5.3,5.3-5.3,13.8,0,19.1l225.1,225
+                                        c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4c5.3-5.3,5.3-13.8,0-19.1L145.188,238.575z"/>
+                                </g>
+                                </svg>
+                                </div>
+                                <div class="select-options">
+                                    <span class="values">1 Dateiname.pdf</span>
+                                    <div class="select-values">
+                                        <ul>
+                                            <li>1 Dateiname.pdf</li>
+                                            <li>2 Dateiname.pdf</li>
+                                            <li>3 Dateiname.pdf</li>
+                                            <li>4 Dateiname.pdf</li>
+                                            <li>5 Dateiname.pdf</li>
+                                            <li>6 Dateiname.pdf</li>
+                                            <li>7 Dateiname.pdf</li>
+                                            <li>8 Dateiname.pdf</li>
+                                            <li>9 Dateiname.pdf</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="arrow-icone">
+                                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                         viewBox="0 0 477.175 477.175" style="enable-background:new 0 0 477.175 477.175;" xml:space="preserve">
+                                <g>
+                                    <path d="M360.731,229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1,0s-5.3,13.8,0,19.1l215.5,215.5l-215.5,215.5
+                                        c-5.3,5.3-5.3,13.8,0,19.1c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-4l225.1-225.1C365.931,242.875,365.931,234.275,360.731,229.075z
+                                        "/>
+                                </g>
+                                </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="page22.html"><button class="dashboard-next-button-table"><img class="" src="assets/img/next.png"/></button></a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    $(document).ready(function() {
+
+        var nice = $("html").niceScroll();  // The document page (body)
+
+        $("#div1").html($("#div1").html()+' '+nice.version);
+
+        $("#boxscroll").niceScroll({cursorborder:"", cursorborderradius: "10px", background: "#EEF3F7", cursorwidth: "15px", cursorcolor:"#B4CEDC",boxzoom:false,autohidemode: false}); // First scrollable DIV
+        $(".select-options .select-values ul").niceScroll({cursorborder:"", cursorborderradius: "10px", background: "#EEF3F7", cursorwidth: "8px", cursorcolor:"#B4CEDC",boxzoom:false,autohidemode: false}); // First scrollable DIV
+
+        $aiccValue = $(".select-options span.values");
+        $aiccValueList = $(".select-options .select-values ul li");
+
+        $aiccValue.click(function() {
+            $(this).parent('.select-options').toggleClass('open');
+        });
+        $aiccValueList.click(function() {
+            $listVal = $(this).text();
+            console.log($listVal);
+            $aiccValue.text($listVal);
+            $aiccValue.parent('.select-options').removeClass('open');
+        });
+        $NavmenuContent = $(".dashboard-menu-item");
+        console.log($NavmenuContent);
+
+
+
+    });
+</script>
+</html>

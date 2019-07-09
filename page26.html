@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Aiccounting</title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/app.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/component-chosen.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.nicescroll.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $(".hamburger").click(function(){
+                $(this).toggleClass("vector");
+                $(".page-section .col-sm-3").toggleClass("main");
+                $(".nav_menu_area ").toggleClass('open_nav');
+            });
+            $(".middle-content-top-text").css( "background-color", "#E5EEF3");
+        });
+    </script>
+
+</head>
+<body class="back-color">
+<img class="left-top-img" src="assets/img/Produktionsdaten/Testseite/illustration_netz_links_oben.svg">
+<img class="right-bottom-img" src="assets/img/Produktionsdaten/Testseite/illustration_netz_rechts_unten.svg">
+<header class="container-fluid">
+    <nav class="navbar navbar-expand-sm fixed-top bg-white container-fluid log-header">
+        <div class="spacing-header col-lg-1"></div>
+        <div class="col-10 col-sm-10 col-md-4 col-lg-3">
+            <img src="assets/img/aiccounting_logo_weiss.png" alt="Logo">
+        </div>
+        <div class="spacing-header col-md-4 col-lg-6"></div>
+        <div class="col-2 col-sm-2 col-md-4 col-lg-2">
+            <img src="assets/img/Produktionsdaten/Testseite/avatar.svg">
+            <span class="log-user-text">M.Muster</span>
+        </div>
+    </nav>
+</header>
+
+<div class="center-wrapper">
+    <div class="page-section">
+        <div class="container">
+            <div class="dasbord-area">
+                <div id="triangle-up1"></div>
+                <div class="row">
+                    <div class="nav_menu_area col-lg-2 col-md-4 pl-0 pr-0">
+                        <div class="hamburger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <div class="other-main-menu">
+                            <a href="#" class="advance_ac">Advance Account</a>
+                            <ul class="dashboard-menu-item">
+                                <li class="active"><span><img class="dashboard-img" src="assets/img/icon_menu_upload_invert.png"><img class="hover" src="assets/img/icon_menu_upload_invert.png"></span><a class="dashboard-text" href="page26.html">MEINE BELEGE</a></li>
+                                <li><span><img class="dashboard-img" src="assets/img/Produktionsdaten/Testseite/icon_account_ueber_aiccounting.svg"><img class="hover" src="assets/img/icon_account_ueber_aiccounting_invert.png"></span><a class="dashboard-text" href="page27.html">Über aiccounting</a></li>
+                                <li><span><img class="dashboard-img" src="assets/img/Produktionsdaten/Testseite/icon_account_kontakt.svg"><img class="hover" src="assets/img/icon_account_kontakt_invert.png"></span><a class="dashboard-text" href="page28.html">KONTAKT ZU UNS</a></li>
+                                <li><span><img class="dashboard-img" src="assets/img/Produktionsdaten/Testseite/icon_account_hilfe.svg"><img class="hover" src="assets/img/icon_account_hilfe_invert.png"></span><a class="dashboard-text" href="page29.html">HILFE</a></li>
+                                <li><span><img class="dashboard-img" src="assets/img/Produktionsdaten/Testseite/icon_account_logout.svg"><img class="hover" src="assets/img/icon_account_logout_invert.png"></span><a class="dashboard-text" href="page30.html">LOGOUT</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-10 col-md-8 pl-0 pr-0">
+                        <div class="middle-content-top-text">
+                            <div class="container-fluid pl-sm-3 pl-lg-5">
+                                <div class="row mt-5 pt-4 mx-2 mx-sm-3 mx-md-3 mx-lg-3">
+                                    <span class="line-in ml-0"></span>
+                                </div>
+                                <div class="row mx-2 mx-sm-3 mx-md-3 mx-lg-3">
+                                    <div class="middle-content-input-title">Meine Belege</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-11 col-md-11 col-lg-5 mx-0 mx-sm-0 mx-md-3 mx-lg-5">
+                                        <div class="middle-content-download-pannel">
+                                            <div class="row mt-3 justify-content-center mx-3">
+                                                <div class="col-8 col-sm-6 col-md-7 pannel-title">
+                                                    Manuelle Bearbeitung
+                                                </div>
+                                                <div class="col-8 col-sm-5 col-md-5 pl-md-4 pl-lg-5">
+                                                    <button class="pannel-header-button ml-4">Alle anzeigen</button>
+                                                </div>
+                                            </div>
+                                            <div class="row mt-2 mx-3">
+                                                <table class="table table-borderless opacity-50">
+                                                    <tbody class="table-content-text">
+                                                    <tr>
+                                                        <td class="py-1 pl-0 pr-2 px-md-2">1</td>
+                                                        <td class="py-1 px-0 px-md-2 px-lg-3">Dateiname</td>
+                                                        <td class="py-1 px-3 px-md-3 px-lg-5">09.08.2020</td>
+                                                        <td class="py-1 px-2 px-md-3 px-lg-5">
+                                                            <img width="15" height="15" src="assets/img/Produktionsdaten/Testseite/icon_upload_vollstaendig.svg">
+                                                        </td>
+                                                        <td class="py-1 px-0 px-lg-1">
+                                                            <img width="15" height="15" src="assets/img/Produktionsdaten/Testseite/icon_loeschen.svg">
+                                                        </td>
+                                                        <td class="py-1 px-0 px-lg-1">
+                                                            <img width="15" height="15" src="assets/img/Produktionsdaten/Testseite/icon_mehr.svg">
+                                                        </td>
+                                                        <td class="py-1 px-0 px-lg-1">
+                                                            <img width="15" height="15" src="assets/img/Produktionsdaten/Testseite/icon_gehe_zu.svg">
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="py-1 pl-0 pr-2 px-md-2">2</td>
+                                                        <td class="py-1 px-0 px-md-2 px-lg-3">Dateiname</td>
+                                                        <td class="py-1 px-3 px-md-3 px-lg-5">09.08.2020</td>
+                                                        <td class="py-1 px-2 px-md-3 px-lg-5">
+                                                            <img width="15" height="15" src="assets/img/Produktionsdaten/Testseite/icon_upload_vollstaendig.svg">
+                                                        </td>
+                                                        <td class="py-1 px-0 px-lg-1">
+                                                            <img width="15" height="15" src="assets/img/Produktionsdaten/Testseite/icon_loeschen.svg">
+                                                        </td>
+                                                        <td class="py-1 px-0 px-lg-1">
+                                                            <img width="15" height="15" src="assets/img/Produktionsdaten/Testseite/icon_mehr.svg">
+                                                        </td>
+                                                        <td class="py-1 px-0 px-lg-1">
+                                                            <img width="15" height="15" src="assets/img/Produktionsdaten/Testseite/icon_gehe_zu.svg">
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="py-1 pl-0 pr-2 px-md-2">3</td>
+                                                        <td class="py-1 px-0 px-md-2 px-lg-3">Dateiname</td>
+                                                        <td class="py-1 px-3 px-md-3 px-lg-5">09.08.2020</td>
+                                                        <td class="py-1 px-2 px-md-3 px-lg-5">
+                                                            <img width="15" height="15" src="assets/img/Produktionsdaten/Testseite/icon_upload_vollstaendig.svg">
+                                                        </td>
+                                                        <td class="py-1 px-0 px-lg-1">
+                                                            <img width="15" height="15" src="assets/img/Produktionsdaten/Testseite/icon_loeschen.svg">
+                                                        </td>
+                                                        <td class="py-1 px-0 px-lg-1">
+                                                            <img width="15" height="15" src="assets/img/Produktionsdaten/Testseite/icon_mehr.svg">
+                                                        </td>
+                                                        <td class="py-1 px-0 px-lg-1">
+                                                            <img width="15" height="15" src="assets/img/Produktionsdaten/Testseite/icon_gehe_zu.svg">
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="py-1 pl-0 pr-2 px-md-2">4</td>
+                                                        <td class="py-1 px-0 px-md-2 px-lg-3">Dateiname</td>
+                                                        <td class="py-1 px-3 px-md-3 px-lg-5">09.08.2020</td>
+                                                        <td class="py-1 px-2 px-md-3 px-lg-5">
+                                                            <img width="15" height="15" src="assets/img/Produktionsdaten/Testseite/icon_upload_vollstaendig.svg">
+                                                        </td>
+                                                        <td class="py-1 px-0 px-lg-1">
+                                                            <img width="15" height="15" src="assets/img/Produktionsdaten/Testseite/icon_loeschen.svg">
+                                                        </td>
+                                                        <td class="py-1 px-0 px-lg-1">
+                                                            <img width="15" height="15" src="assets/img/Produktionsdaten/Testseite/icon_mehr.svg">
+                                                        </td>
+                                                        <td class="py-1 px-0 px-lg-1">
+                                                            <img width="15" height="15" src="assets/img/Produktionsdaten/Testseite/icon_gehe_zu.svg">
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <div class="row pannel-title ml-4 mt-4">
+                                                Downloads
+                                            </div>
+                                            <div class="row mx-3 mt-3">
+                                                <div class="card-pannel mt-1">
+                                                    <div class="row mx-1 justify-content-center">
+                                                        <div class="col-3 col-sm-2 col-md-2">
+                                                            <img class="card-hor-img" src="assets/img/Produktionsdaten/Testseite/icon_Rechnungskriterien.svg">
+                                                        </div>
+                                                        <div class="col-9 col-sm-7 col-md-6 col-lg-7 card-hor-text p1-2 pt-3 pt-md-3 pt-lg-3">
+                                                            Rechnungskriterien
+                                                        </div>
+                                                        <div class="col-5 col-sm-3 col-md-4 col-lg-3">
+                                                            <button class="card-download-button">Download</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row mx-3 mt-3">
+                                                <div class="card-pannel mt-1">
+                                                    <div class="row mx-1 justify-content-center">
+                                                        <div class="col-3 col-sm-2 col-md-2">
+                                                            <img class="card-hor-img" src="assets/img/Produktionsdaten/Testseite/icon_Rechnungskriterien.svg">
+                                                        </div>
+                                                        <div class="col-9 col-sm-7 col-md-6 col-lg-7 card-hor-text p1-2 pt-3 pt-md-3 pt-lg-3">
+                                                            OCR Ergebnisse
+                                                        </div>
+                                                        <div class="col-5 col-sm-3 col-md-4 col-lg-3">
+                                                            <button class="card-download-button">Download</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row mx-3 mt-3">
+                                                <div class="card-pannel mt-1">
+                                                    <div class="row mx-1 justify-content-center">
+                                                        <div class="col-3 col-sm-2 col-md-2">
+                                                            <img class="card-hor-img" src="assets/img/Produktionsdaten/Testseite/icon_Rechnungskriterien.svg">
+                                                        </div>
+                                                        <div class="col-9 col-sm-7 col-md-6 col-lg-7 card-hor-text p1-2 pt-3 pt-md-3 pt-lg-1">
+                                                            Generische Buchhaltungsdaten
+                                                        </div>
+                                                        <div class="col-5 col-sm-3 col-md-4 col-lg-3">
+                                                            <button class="card-download-button">Download</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-11 col-md-11 col-lg-5 mx-0 mx-sm-0 mx-md-3 mx-lg-5 mt-3 mt-sm-3 mt-md-3 mt-lg-0">
+                                        <div class="middle-content-download-pannel">
+                                            <div class="row mt-3 justify-content-center mx-3">
+                                                <div class="col-6 col-sm-6 col-md-7 pannel-title">
+                                                    KI Bearbeitung
+                                                </div>
+                                                <div class="col-8 col-sm-5 col-md-5 pl-md-4 pl-lg-5">
+                                                    <button class="pannel-header-button ml-3">Alle anzeigen</button>
+                                                </div>
+                                            </div>
+                                            <div class="row mt-2 mx-3">
+                                                <table class="table table-borderless opacity-50">
+                                                    <tbody class="table-content-text">
+                                                    <tr>
+                                                        <td class="py-1 pl-0 pr-2 px-md-2">12</td>
+                                                        <td class="py-1 px-0 px-md-2 px-lg-3">Dateiname</td>
+                                                        <td class="py-1 px-3 px-md-3 px-lg-5">09.08.2020</td>
+                                                        <td class="py-1 px-2 px-md-3 px-lg-5">
+                                                            <img width="15" height="15" src="assets/img/Produktionsdaten/Testseite/icon_upload_vollstaendig.svg">
+                                                        </td>
+                                                        <td class="py-1 px-0 px-lg-1">
+                                                            <img width="15" height="15" src="assets/img/Produktionsdaten/Testseite/icon_loeschen.svg">
+                                                        </td>
+                                                        <td class="py-1 px-0 px-lg-1">
+                                                            <img width="15" height="15" src="assets/img/Produktionsdaten/Testseite/icon_mehr.svg">
+                                                        </td>
+                                                        <td class="py-1 px-0 px-lg-1">
+                                                            <img width="15" height="15" src="assets/img/Produktionsdaten/Testseite/icon_gehe_zu.svg">
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="py-1 pl-0 pr-2 px-md-2">13</td>
+                                                        <td class="py-1 px-0 px-md-2 px-lg-3">Dateiname</td>
+                                                        <td class="py-1 px-3 px-md-3 px-lg-5">09.08.2020</td>
+                                                        <td class="py-1 px-2 px-md-3 px-lg-5">
+                                                            <img width="15" height="15" src="assets/img/Produktionsdaten/Testseite/icon_upload_vollstaendig.svg">
+                                                        </td>
+                                                        <td class="py-1 px-0 px-lg-1">
+                                                            <img width="15" height="15" src="assets/img/Produktionsdaten/Testseite/icon_loeschen.svg">
+                                                        </td>
+                                                        <td class="py-1 px-0 px-lg-1">
+                                                            <img width="15" height="15" src="assets/img/Produktionsdaten/Testseite/icon_mehr.svg">
+                                                        </td>
+                                                        <td class="py-1 px-0 px-lg-1">
+                                                            <img width="15" height="15" src="assets/img/Produktionsdaten/Testseite/icon_gehe_zu.svg">
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="py-1 pl-0 pr-2 px-md-2">14</td>
+                                                        <td class="py-1 px-0 px-md-2 px-lg-3">Dateiname</td>
+                                                        <td class="py-1 px-3 px-md-3 px-lg-5">09.08.2020</td>
+                                                        <td class="py-1 px-2 px-md-3 px-lg-5">
+                                                            <img width="15" height="15" src="assets/img/Produktionsdaten/Testseite/icon_upload_vollstaendig.svg">
+                                                        </td>
+                                                        <td class="py-1 px-0 px-lg-1">
+                                                            <img width="15" height="15" src="assets/img/Produktionsdaten/Testseite/icon_loeschen.svg">
+                                                        </td>
+                                                        <td class="py-1 px-0 px-lg-1">
+                                                            <img width="15" height="15" src="assets/img/Produktionsdaten/Testseite/icon_mehr.svg">
+                                                        </td>
+                                                        <td class="py-1 px-0 px-lg-1">
+                                                            <img width="15" height="15" src="assets/img/Produktionsdaten/Testseite/icon_gehe_zu.svg">
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="active-row">
+                                                        <td class="py-1 pl-0 pr-2 px-md-2">15</td>
+                                                        <td class="py-1 px-0 px-md-2 px-lg-3">Dateiname</td>
+                                                        <td class="py-1 px-3 px-md-3 px-lg-5">09.08.2020</td>
+                                                        <td class="py-1 px-2 px-md-3 px-lg-5">
+                                                            <img width="15" height="15" src="assets/img/Produktionsdaten/Testseite/icon_upload_vollstaendig_markiert.svg">
+                                                        </td>
+                                                        <td class="py-1 px-0 px-lg-1">
+                                                            <img width="15" height="15" src="assets/img/Produktionsdaten/Testseite/icon_loeschen.png">
+                                                        </td>
+                                                        <td class="py-1 px-0 px-lg-1">
+                                                            <img width="15" height="15" src="assets/img/Produktionsdaten/Testseite/icon_mehr.png">
+                                                        </td>
+                                                        <td class="py-1 px-0 px-lg-1">
+                                                            <img width="15" height="15" src="assets/img/Produktionsdaten/Testseite/icon_gehe_zu.png">
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <div class="row pannel-title ml-4 mt-4">
+                                                Downloads
+                                            </div>
+                                            <div class="row mx-3 mt-3">
+                                                <div class="card-pannel mt-1">
+                                                    <div class="row mx-1 justify-content-center">
+                                                        <div class="col-3 col-sm-2 col-md-2">
+                                                            <img class="card-hor-img" src="assets/img/Produktionsdaten/Testseite/icon_Rechnungskriterien.svg">
+                                                        </div>
+                                                        <div class="col-9 col-sm-7 col-md-6 col-lg-7 card-hor-text p1-2 pt-3 pt-md-3 pt-lg-3">
+                                                            Rechnungskriterien
+                                                        </div>
+                                                        <div class="col-5 col-sm-3 col-md-4 col-lg-3">
+                                                            <button class="card-download-button">Download</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row mx-3 mt-3">
+                                                <div class="card-pannel mt-1">
+                                                    <div class="row mx-1 justify-content-center">
+                                                        <div class="col-3 col-sm-2 col-md-2">
+                                                            <img class="card-hor-img" src="assets/img/Produktionsdaten/Testseite/icon_Rechnungskriterien.svg">
+                                                        </div>
+                                                        <div class="col-9 col-sm-7 col-md-6 col-lg-7 card-hor-text p1-2 pt-3 pt-md-3 pt-lg-3">
+                                                            OCR Ergebnisse
+                                                        </div>
+                                                        <div class="col-5 col-sm-3 col-md-4 col-lg-3">
+                                                            <button class="card-download-button">Download</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row mx-3 mt-3">
+                                                <div class="card-pannel mt-1">
+                                                    <div class="row mx-1 justify-content-center">
+                                                        <div class="col-3 col-sm-2 col-md-2">
+                                                            <img class="card-hor-img" src="assets/img/Produktionsdaten/Testseite/icon_Rechnungskriterien.svg">
+                                                        </div>
+                                                        <div class="col-9 col-sm-7 col-md-6 col-lg-7 card-hor-text p1-2 pt-3 pt-md-3 pt-lg-1">
+                                                            Generische Buchhaltungsdaten
+                                                        </div>
+                                                        <div class="col-5 col-sm-3 col-md-4 col-lg-3">
+                                                            <button class="card-download-button">Download</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <a href="page27.html"><img class="dashboard-next-button-other next-button-margin" src="assets/img/next.png"/></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+<script>
+    $(document).ready(function() {
+
+        var nice = $("html").niceScroll();  // The document page (body)
+
+        $("#div1").html($("#div1").html()+' '+nice.version);
+
+        $("#boxscroll").niceScroll({cursorborder:"", cursorborderradius: "10px", background: "#EEF3F7", cursorwidth: "15px", cursorcolor:"#B4CEDC",boxzoom:false,autohidemode: false}); // First scrollable DIV
+        $(".select-options .select-values ul").niceScroll({cursorborder:"", cursorborderradius: "10px", background: "#EEF3F7", cursorwidth: "8px", cursorcolor:"#B4CEDC",boxzoom:false,autohidemode: false}); // First scrollable DIV
+
+        $aiccValue = $(".select-options span.values");
+        $aiccValueList = $(".select-options .select-values ul li");
+
+        $aiccValue.click(function() {
+            $(this).parent('.select-options').toggleClass('open');
+        });
+        $aiccValueList.click(function() {
+            $listVal = $(this).text();
+            console.log($listVal);
+            $aiccValue.text($listVal);
+            $aiccValue.parent('.select-options').removeClass('open');
+        });
+        $NavmenuContent = $(".dashboard-menu-item");
+        console.log($NavmenuContent);
+
+
+
+    });
+</script>
+</html>
