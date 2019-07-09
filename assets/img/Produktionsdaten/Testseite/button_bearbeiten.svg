@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110.482" height="105.003" viewBox="0 0 110.482 105.003">
+  <defs>
+    <filter id="Vereinigungsmenge_18" x="0" y="0" width="110.482" height="105.003" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-color="#002b49" flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Gruppe_1777" data-name="Gruppe 1777" transform="translate(-1749.02 -605.5)">
+    <g transform="matrix(1, 0, 0, 1, 1749.02, 605.5)" filter="url(#Vereinigungsmenge_18)">
+      <path id="Vereinigungsmenge_18-2" data-name="Vereinigungsmenge 18" d="M22641.627-1129.4l-5.918-5.918a1,1,0,0,1,0-1.413l5.936-5.94A30.016,30.016,0,0,1,22670.9-1166a30,30,0,0,1,30,30,30,30,0,0,1-30,30A30.014,30.014,0,0,1,22641.627-1129.4Z" transform="translate(-22618.92 1182.5)" fill="#fff"/>
+    </g>
+    <g id="Gruppe_1774" data-name="Gruppe 1774" transform="translate(22396 -881.999)">
+      <path id="Rechteck_247" data-name="Rechteck 247" d="M2.695,0H4.472A2.695,2.695,0,0,1,7.166,2.695V30.516a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2.695A2.695,2.695,0,0,1,2.695,0Z" transform="translate(-20591.439 1516) rotate(19.969)" fill="none" stroke="#699eba" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Pfad_164" data-name="Pfad 164" d="M16.22,24.3,9.484,21.853l.682,8.614Z" transform="translate(-20611.346 1522.828)" fill="none" stroke="#699eba" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line id="Linie_684" data-name="Linie 684" x2="6.513" y2="2.367" transform="translate(-20593.361 1521.288)" fill="none" stroke="#699eba" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

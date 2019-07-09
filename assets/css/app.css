@@ -1,0 +1,717 @@
+
+@font-face {
+    font-family: 'Montserrat-Black'; /*a name to be used later*/
+    src: url('../font/Montserrat-Black.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Montserrat-BlackItalic'; /*a name to be used later*/
+    src: url('../font/Montserrat-BlackItalic.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold'; /*a name to be used later*/
+    src: url('../font/Montserrat-Bold.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Montserrat-BoldItalic'; /*a name to be used later*/
+    src: url('../font/Montserrat-BoldItalic.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Montserrat-ExtraBold'; /*a name to be used later*/
+    src: url('../font/Montserrat-ExtraBold.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Montserrat-ExtraBoldItalic'; /*a name to be used later*/
+    src: url('../font/Montserrat-ExtraBoldItalic.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Montserrat-ExtraLight'; /*a name to be used later*/
+    src: url('../font/Montserrat-ExtraLight.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Montserrat-ExtraLightItalic'; /*a name to be used later*/
+    src: url('../font/Montserrat-ExtraLightItalic.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Montserrat-Hairline'; /*a name to be used later*/
+    src: url('../font/Montserrat-Hairline.otf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Montserrat-Italic'; /*a name to be used later*/
+    src: url('../font/Montserrat-Italic.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Montserrat-Italic'; /*a name to be used later*/
+    src: url('../font/Montserrat-Italic.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'Montserrat-Light'; /*a name to be used later*/
+    src: url('../font/Montserrat-Light.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'Montserrat-LightItalic'; /*a name to be used later*/
+    src: url('../font/Montserrat-LightItalic.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'Montserrat-Medium'; /*a name to be used later*/
+    src: url('../font/Montserrat-Medium.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'Montserrat-MediumItalic'; /*a name to be used later*/
+    src: url('../font/Montserrat-MediumItalic.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'Montserrat-Regular'; /*a name to be used later*/
+    src: url('../font/Montserrat-Regular.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'Montserrat-SemiBold'; /*a name to be used later*/
+    src: url('../font/Montserrat-SemiBold.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Montserrat-SemiBoldItalic'; /*a name to be used later*/
+    src: url('../font/Montserrat-SemiBoldItalic.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'Montserrat-Thin'; /*a name to be used later*/
+    src: url('../font/Montserrat-Thin.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'Montserrat-ThinItalic'; /*a name to be used later*/
+    src: url('../font/Montserrat-ThinItalic.ttf'); /*URL to font*/
+}
+
+html, body{
+    font-family: 'Montserrat-Light';
+    font-size: 16px;
+}
+
+.log-header{
+    height: 80px;
+}
+
+.back-color{
+    background-color: #002B49;
+}
+
+.default-header {
+    background-color: #fff;
+    width: 100% !important;
+    box-shadow: -21.213px 21.213px 30px 0px rgba(158, 158, 158, 0.3);
+}
+
+.logo-align{
+    align: right;
+}
+
+.description-text-center{
+    font-family: 'Montserrat-Medium';
+    color: #B4CEDC;
+    font-size: 1em;
+    text-align: center;
+    margin: auto;
+    padding-top: 40px;
+    width: 70%;
+}
+
+.description-text-regular{
+    font-family: 'Montserrat-Regular';
+    color: #B4CEDC;
+    font-size: 1em;
+    text-align: left;
+    margin-top: 60px;
+    width: 85%;
+}
+
+.chart-description-text{
+    font-family: 'Montserrat-Regular';
+    color: #B4CEDC;
+    font-size: 1em;
+    line-height: 1.2em;
+    padding-left: 84px;
+    margin-top: 0px;
+    width: 94%;
+}
+
+.description-text-left{
+    font-family: 'Montserrat-Medium';
+    color: #B4CEDC;
+    font-size: 1em;
+    text-align: left;
+    margin-top: 30px;
+    width: 81%;
+}
+
+
+.title-text{
+    font-family: 'Montserrat-SemiBold';
+    color: #B4CEDC;
+    font-size: 2.8em;
+    margin-top: 25px;
+}
+
+.title-text-light{
+    font-family: 'Montserrat-Light';
+    color: #B4CEDC;
+    font-size: 2.8em;
+    width: 95%;
+    margin-top: 20px;
+    word-wrap: break-word;
+}
+
+.sub-title-text{
+    font-family: 'Montserrat-Medium';
+    font-size: 1.8em;
+    color: #B4CEDC;
+    margin-top: 15px;
+}
+
+.log-user-text{
+    font-family: 'Montserrat-SemiBold';
+    color: #699EBA;
+    font-size: 1.2em;
+    padding-left: 11px;
+    margin-top: 11px;
+}
+
+.chart-sub-title{
+    font-family: 'Montserrat-Medium';
+    color: #699EBA;
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.chart-img{
+    width: 60px;
+    height: 60px;
+}
+
+.banner-content{
+    margin-top: 230px;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-button{
+    font-family: 'Montserrat-Medium';
+    font-size: 1em;
+    background-color: #699EBA;
+    color: white;
+    border: 0px;
+    border-radius: 20px;
+    width: 230px;
+    height: 30px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.register-button{
+    font-family: 'Montserrat-Medium';
+    font-size: 1em;
+    background-color: #699EBA;
+    color: white;
+    border: 0px;
+    border-radius: 15px;
+    width: 140px;
+    height: 30px;
+    right: 0px;
+}
+
+.register-button-1{
+    font-family: 'Montserrat-Medium';
+    font-size: 1em;
+    background-color: #699EBA;
+    color: white;
+    border: 0px;
+    border-radius: 15px;
+    width: 70px;
+    height: 30px;
+}
+
+.register-button-4{
+    font-family: 'Montserrat-Medium';
+    font-size: 1em;
+    background-color: #699EBA;
+    color: white;
+    border: 0px;
+    border-radius: 15px;
+    width: 120px;
+    height: 30px;
+    position: absolute;
+    right: 120px;
+    margin-bottom: 100px;
+}
+
+hr { display: block; height: 1px;
+    border: 0; border-top: 1px solid #ccc;
+    margin: 1em 0; padding: 0; }
+
+
+.line{
+    width: 50px;
+    height: 10px;
+    border-bottom: 4px solid red;
+    border-radius: 2px;
+    margin-top: 30px;
+}
+
+.line-empty-spacing{
+    width: 50px;
+    height: 25px;
+    border-bottom: 4px solid red;
+    border-radius: 2px;
+}
+
+.empty-padding-space{
+    padding-left: 0px;
+    padding-right: 15px;
+}
+.striped-border {
+    border: 1px dashed #000;
+    width: 50%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.input-box-user{
+    font-family: 'Montserrat-Regular';
+    font-size: 1em;
+    color: #002B49;
+    background-color: #699EBA;
+    border-radius: 7px;
+    border: 0px;
+    height: 40px;
+    width: 97%;
+    text-indent: 9px;
+    margin-left: 0px;
+    margin-bottom: 16px;
+}
+
+.spacing-20-pro{
+    margin-top: 20%;
+}
+.spacing-60{
+    margin-top: 60px;
+}
+
+.spacing-30{
+    margin-top: 40px;
+}
+
+.spacing-40{
+    margin-top: 40px;
+}
+
+.spacing-10-pro{
+    margin-top: 10%;
+}
+
+.spacing-18-pro{
+    margin-top: 18%;
+}
+
+.spacing-14-pro{
+    margin-top: 14%;
+}
+
+.empty-spacing{
+    padding: 0px;
+}
+
+.spacing-150{
+    margin-top: 150px;
+}
+
+.spacing-250{
+    margin-top: 250px;
+}
+
+.spacing-130{
+    margin-top: 130px;
+}
+.spacing-27{
+    margin-top: 27px;
+}
+
+
+.color-check {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    font-family: 'Montserrat-Medium';
+    font-size: 13px;
+    color: #699EBA;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.color-check input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    font-family: 'Montserrat-Medium';
+    font-size: 13px;
+    color: #699EBA;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #699EBA;
+}
+
+/* On mouse-over, add a grey background color */
+.color-check:hover input ~ .checkmark {
+    background-color: #699EBA;
+}
+
+/* When the checkbox is checked, add a blue background */
+.color-check input:checked ~ .checkmark {
+    background-color: #E40038;
+}
+
+.color-check input:checked ~ .checkmark {
+    background-color: #E40038;
+}
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.color-check input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.color-check .checkmark:after {
+    left: 6px;
+    top: 4px;
+    width: 7px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.color-check span{
+    color: #E40038;
+}
+
+.chart-arrow{
+    padding-left: 30px;
+    display: none;
+}
+
+.back-img{
+    background-color: #002B49;
+}
+
+.chart-spacing-40{
+    margin-top: 0px;
+}
+
+.chart-spacing-60{
+    margin-top: 0px;
+}
+
+.padding-80{
+    padding-bottom: 80px;
+}
+.table-color-check {
+    display: block;
+    position: relative;
+    font-family: 'Montserrat-Medium';
+    font-size: 10px;
+    color: #699EBA;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.table-color-check input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.table-checkmark {
+    font-family: 'Montserrat-Medium';
+    font-size: 10px;
+    color: #699EBA;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 14px;
+    width: 14px;
+    background-color: #699EBA;
+    border-radius: 2px;
+}
+
+/* On mouse-over, add a grey background color */
+.table-color-check:hover input ~ .checkmark {
+    background-color: #699EBA;
+}
+
+/* When the checkbox is checked, add a blue background */
+.table-color-check input:checked ~ .checkmark {
+    background-color: #699EBA;
+}
+
+.table-color-check input:checked ~ .checkmark {
+    background-color: #699EBA;
+}
+/* Create the checkmark/indicator (hidden when not checked) */
+.table-checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.table-color-check input:checked ~ .table-checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.table-color-check .table-checkmark:after {
+    left: 4px;
+    top: 2px;
+    width: 5px;
+    height: 8px;
+    border: solid white;
+    border-width: 0 1px 1px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.table-color-check span{
+    color: #699EBA;
+}
+
+.dropdown-indent{
+    margin-left: 7em;
+}
+
+.dashboard-input-box-user{
+    font-family: 'Montserrat-Regular';
+    font-size: 14px;
+    color: #002B49;
+    background-color: #EDF3F7;
+    border-radius: 7px;
+    border: 0px;
+    height: 30px;
+    width: 90%;
+    text-indent: 9px;
+    margin-left: 0px;
+    margin-bottom: 16px;
+}
+
+.dashboard-textarea-box-user{
+    font-family: 'Montserrat-Regular';
+    font-size: 14px;
+    color: #002B49;
+    background-color: #EDF3F7;
+    border-radius: 7px;
+    border: 0px;
+    height: 200px;
+    width: 95%;
+    text-align: justify;
+    margin-left: 0px;
+    margin-bottom: 16px;
+}
+
+.dashboard-chart-description-text{
+    font-family: 'Montserrat-Regular';
+    color: #002B49;
+    font-size: 14px;
+    line-height: 1.2em;
+    padding-left: 84px;
+    margin-top: 0px;
+    width: 80%;
+}
+
+.dashboard-chart-sub-title{
+    font-family: 'Montserrat-Medium';
+    color: #002B49;
+    font-size: 18px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+@media (width: 1920px) {
+    .back-img{
+        background-image: url("../img/background_chart.png");
+    }
+    .chart-arrow{
+        display: inline;
+    }
+    .chart-spacing-40{
+        margin-top: 40px;
+    }
+
+    .chart-spacing-60{
+        margin-top: 60px;
+    }
+}
+
+@media (min-width: 992px){
+    .center-img{
+        margin-top: 300px;
+    }
+    .right-bottom-img{
+        position: absolute;
+        bottom: 0px;
+    }
+    .left-top-img{
+        position: absolute;
+    }
+}
+
+
+@media (min-width: 768px) {
+
+    .left-top-img {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: -1;
+    }
+
+    .right-bottom-img {
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+        z-index: -1;
+    }
+    .spacing-20-pro{
+        margin-top: 25%;
+    }
+    .spacing-130{
+        margin-top: 100px;
+    }
+
+    .register-button-5{
+        font-family: 'Montserrat-Medium';
+        font-size: 1em;
+        background-color: #699EBA;
+        color: white;
+        border: 0px;
+        border-radius: 15px;
+        width: 120px;
+        height: 30px;
+        position: absolute;
+        right: 5px;
+    }
+    .right-bottom-img{
+        position: fixed;
+        bottom: 0px;
+    }
+    .left-top-img{
+        position: fixed;
+    }
+}
+
+@media (max-width: 767px) {
+    .left-top-img {
+        display: none;
+    }
+
+    .right-bottom-img {
+        display: none;
+    }
+    .log-user-text{
+        display: none;
+    }
+    .banner-content{
+        margin-top: 100px;
+    }
+    .spacing-150{
+        margin-top: 50px;
+    }
+    .spacing-250{
+        margin-top: 80px;
+    }
+    .title-text-light{
+        width: 100%;
+    }
+    .description-text-regular{
+        width: 100%;
+    }
+    .title-text-light{
+        line-height: 1.2em;
+    }
+}
+
+@media (max-width: 576px) {
+    html, body{
+        font-size: 12px;
+    }
+    .spacing-header{
+        display: none;
+    }
+    .center-img{
+        width: 100%;
+        margin: auto;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    .spacing-130{
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 480px){
+    .register-button-5{
+        font-family: 'Montserrat-Medium';
+        font-size: 1em;
+        background-color: #699EBA;
+        color: white;
+        border: 0px;
+        border-radius: 15px;
+        width: 120px;
+        height: 30px;
+        position: absolute;
+    }
+
+    .dashboard-chart-description-text{
+        width: 90%
+    }
+}

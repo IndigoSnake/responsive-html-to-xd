@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#699eba"/>
+      <stop offset="1" stop-color="#354f5d" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Gruppe_1820" data-name="Gruppe 1820" transform="translate(-784 -541)">
+    <g id="Gruppe_1731" data-name="Gruppe 1731" transform="translate(72 -117)">
+      <g id="Ellipse_331" data-name="Ellipse 331" transform="translate(712 658)" fill="none" stroke="#699eba" stroke-width="1">
+        <circle cx="30" cy="30" r="30" stroke="none"/>
+        <circle cx="30" cy="30" r="29.5" fill="none"/>
+      </g>
+      <g id="Gruppe_1689" data-name="Gruppe 1689" transform="translate(733.715 674.292)">
+        <path id="Rechteck_247" data-name="Rechteck 247" d="M2.64,0h0A2.64,2.64,0,0,1,5.28,2.64V22.484a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2.64A2.64,2.64,0,0,1,2.64,0Z" transform="translate(12.108 0) rotate(19.969)" fill="none" stroke="#699eba" stroke-linejoin="round" stroke-width="1"/>
+        <path id="Pfad_164" data-name="Pfad 164" d="M14.447,23.656l-4.963-1.8.5,6.347Z" transform="translate(-5.055 -0.721)" fill="none" stroke="#699eba" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <line id="Linie_683" data-name="Linie 683" x2="9.833" transform="translate(0 28.063)" fill="none" stroke="#699eba" stroke-miterlimit="10" stroke-width="1"/>
+        <line id="Linie_684" data-name="Linie 684" x2="4.799" y2="1.744" transform="translate(10.692 3.896)" fill="none" stroke="#699eba" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+    <circle id="Ellipse_341" data-name="Ellipse 341" cx="27" cy="27" r="27" transform="translate(784 547)" opacity="0.15" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

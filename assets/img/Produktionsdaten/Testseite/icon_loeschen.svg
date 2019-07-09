@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16.301" height="12.8" viewBox="0 0 16.301 12.8">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="16.3" height="12.8" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Komponente" transform="translate(0 0)" clip-path="url(#clip-path)">
+    <path id="Pfad_752" data-name="Pfad 752" d="M15.3,5.4,9.9,0V3.1H4a4,4,0,0,0-4,4v4.7a4,4,0,0,1,4-4H9.9v3.1Z" transform="translate(0.5 0.5)" fill="none" stroke="#b4cedc" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  </g>
+</svg>

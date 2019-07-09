@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="60" viewBox="0 0 64 60">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#699eba"/>
+      <stop offset="1" stop-color="#354f5d" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Gruppe_1792" data-name="Gruppe 1792" transform="translate(-285 -355)">
+    <circle id="Ellipse_337" data-name="Ellipse 337" cx="27" cy="27" r="27" transform="translate(285 355)" opacity="0.15" fill="url(#linear-gradient)"/>
+    <g id="Ellipse_328" data-name="Ellipse 328" transform="translate(289 355)" fill="none" stroke="#699eba" stroke-width="1">
+      <circle cx="30" cy="30" r="30" stroke="none"/>
+      <circle cx="30" cy="30" r="29.5" fill="none"/>
+    </g>
+    <g id="Gruppe_1790" data-name="Gruppe 1790" transform="translate(306.935 367.922)">
+      <path id="Pfad_759" data-name="Pfad 759" d="M19.749,23.7v4.038H1.565V3.4H19.749V23.7Z" fill="none" stroke="#699eba" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Pfad_760" data-name="Pfad 760" d="M2.995,3.4,2.883,2.071,21.01.578l.327,3.956.653,7.912.69,8.369.327,4.021-3.256.271" fill="none" stroke="#699eba" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Pfad_761" data-name="Pfad 761" d="M21.337,4.534l3.181-.112.411,11.9.28,8.4.14,4.03-3.835.131-14.34.494-.028-1.633" fill="none" stroke="#699eba" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Linie_1421" data-name="Linie 1421" x2="11.839" transform="translate(4.867 10.173)" fill="none" stroke="#699eba" stroke-linejoin="round" stroke-width="1"/>
+      <line id="Linie_1422" data-name="Linie 1422" x2="11.839" transform="translate(4.867 13.537)" fill="none" stroke="#699eba" stroke-linejoin="round" stroke-width="1"/>
+      <line id="Linie_1423" data-name="Linie 1423" x2="10.442" transform="translate(4.867 16.901)" fill="none" stroke="#699eba" stroke-linejoin="round" stroke-width="1"/>
+      <line id="Linie_1424" data-name="Linie 1424" x2="5.18" transform="translate(4.867 20.265)" fill="none" stroke="#699eba" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

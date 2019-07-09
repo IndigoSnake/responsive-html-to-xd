@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110.482" height="105.003" viewBox="0 0 110.482 105.003">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="110.482" height="105.003" fill="none"/>
+    </clipPath>
+    <filter id="Vereinigungsmenge_16" x="0.002" y="0" width="110.482" height="105.003" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-color="#002b49" flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Komponente" clip-path="url(#clip-path)">
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Vereinigungsmenge_16)">
+      <path id="Vereinigungsmenge_16-2" data-name="Vereinigungsmenge 16" d="M22641.627-1129.4l-5.918-5.918a1,1,0,0,1,0-1.413l5.936-5.94A30.016,30.016,0,0,1,22670.9-1166a30,30,0,0,1,30,30,30,30,0,0,1-30,30A30.014,30.014,0,0,1,22641.627-1129.4Z" transform="translate(-22618.92 1182.5)" fill="#e40038"/>
+    </g>
+    <g id="Gruppe_1778" data-name="Gruppe 1778" transform="translate(-1725.018 -524.5)">
+      <path id="Pfad_745" data-name="Pfad 745" d="M6413.224,168l10.955,10.955-10.955,10.955" transform="translate(-4636.702 392.545)" fill="none" stroke="#b4cedc" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line id="Linie_1409" data-name="Linie 1409" x1="24" transform="translate(1763.5 571.5)" fill="none" stroke="#b4cedc" stroke-linecap="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

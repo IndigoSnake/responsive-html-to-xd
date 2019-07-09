@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="88" height="89.089" viewBox="0 0 88 89.089">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.5" x2="0.456" y2="1.303" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b4cedc"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x2="0.5" y2="1" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" y1="0.309" x2="0.5" y2="1" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Gruppe_1826" data-name="Gruppe 1826" transform="translate(-530 -469)">
+    <circle id="Ellipse_316" data-name="Ellipse 316" cx="10" cy="10" r="10" transform="translate(596 469)" opacity="0.4" fill="url(#linear-gradient)"/>
+    <circle id="Ellipse_318" data-name="Ellipse 318" cx="29" cy="29" r="29" transform="translate(560 477)" opacity="0.4" fill="url(#linear-gradient-2)"/>
+    <circle id="Ellipse_317" data-name="Ellipse 317" cx="31" cy="31" r="31" transform="translate(530 496.089)" opacity="0.397" fill="url(#linear-gradient-3)"/>
+    <g id="Gruppe_1690" data-name="Gruppe 1690" transform="translate(557.999 481.695)">
+      <path id="Pfad_704" data-name="Pfad 704" d="M30.883,57.336H5.587V3.786h6.691" transform="translate(-5.587 2.737)" fill="none" stroke="#002b49" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Pfad_705" data-name="Pfad 705" d="M20.485,3.786h6.691V40.125" transform="translate(12.822 2.737)" fill="none" stroke="#002b49" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Pfad_706" data-name="Pfad 706" d="M27.115,5.552a5.256,5.256,0,0,0-10.449,0H8.575v6.689H35.2V5.552Z" transform="translate(-1.895 -0.868)" fill="none" stroke="#002b49" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Pfad_707" data-name="Pfad 707" d="M8.844,13.35l2.586,2.586,3.786-3.786" transform="translate(-1.562 13.071)" fill="none" stroke="#002b49" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Pfad_708" data-name="Pfad 708" d="M8.844,18.207l2.586,2.586,3.786-3.786" transform="translate(-1.562 19.073)" fill="none" stroke="#002b49" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Pfad_709" data-name="Pfad 709" d="M8.844,23.065l2.586,2.586,3.786-3.786" transform="translate(-1.562 25.075)" fill="none" stroke="#002b49" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Linie_1384" data-name="Linie 1384" x2="11.624" transform="translate(19.98 25.692)" fill="none" stroke="#002b49" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Pfad_711" data-name="Pfad 711" d="M0,0H11.624" transform="translate(19.98 37.748)" fill="none" stroke="#002b49" stroke-width="2"/>
+      <path id="Pfad_712" data-name="Pfad 712" d="M0,0H5.978" transform="translate(19.98 49.804)" fill="none" stroke="#002b49" stroke-width="2"/>
+      <circle id="Ellipse_319" data-name="Ellipse 319" cx="9.765" cy="9.765" r="9.765" transform="translate(28.239 46.604)" fill="none" stroke="#002b49" stroke-width="2"/>
+      <path id="Pfad_710" data-name="Pfad 710" d="M20.794,26.219l3.535,3.535L29.5,24.578" transform="translate(13.203 29.428)" fill="none" stroke="#002b49" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

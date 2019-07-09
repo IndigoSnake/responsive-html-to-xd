@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110.482" height="105.003" viewBox="0 0 110.482 105.003">
+  <defs>
+    <filter id="Vereinigungsmenge_17" x="0" y="0" width="110.482" height="105.003" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-color="#002b49" flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Gruppe_1776" data-name="Gruppe 1776" transform="translate(-1749.02 -524.5)">
+    <g transform="matrix(1, 0, 0, 1, 1749.02, 524.5)" filter="url(#Vereinigungsmenge_17)">
+      <path id="Vereinigungsmenge_17-2" data-name="Vereinigungsmenge 17" d="M22641.627-1129.4l-5.918-5.918a1,1,0,0,1,0-1.413l5.936-5.94A30.016,30.016,0,0,1,22670.9-1166a30,30,0,0,1,30,30,30,30,0,0,1-30,30A30.014,30.014,0,0,1,22641.627-1129.4Z" transform="translate(-22618.92 1182.5)" fill="#e40038"/>
+    </g>
+    <g id="Gruppe_1770" data-name="Gruppe 1770" transform="translate(361.57 -63.344)">
+      <g id="Gruppe_1769" data-name="Gruppe 1769" transform="translate(1426 624)">
+        <path id="Pfad_748" data-name="Pfad 748" d="M-714.668,241.388a11.3,11.3,0,0,0-7.919-10.732,11.342,11.342,0,0,0-1.691-.4,11.815,11.815,0,0,0-1.833-.144,11.362,11.362,0,0,0-11.442,11.279,11.362,11.362,0,0,0,11.442,11.279" transform="translate(737.553 -230.109)" fill="none" stroke="#b4cedc" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path id="Pfad_749" data-name="Pfad 749" d="M-717.983,233l-6.04,6.852-6.852-6.04" transform="translate(746.893 -226.061)" fill="none" stroke="#b4cedc" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+    </g>
+  </g>
+</svg>
